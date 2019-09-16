@@ -44,7 +44,7 @@ public class MainActivity extends BaseActivity implements RecyclerViewClickListe
         viewModel.dataw.observe(this, new Observer<List<Questions>>() {
             @Override
             public void onChanged(List<Questions> questions) {
-                Toast.makeText(getApplicationContext(),questions.size()+"",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), questions.size() + "", Toast.LENGTH_LONG).show();
             }
         });
         viewModel.data.observe(this, new Observer<String>() {
@@ -67,7 +67,6 @@ public class MainActivity extends BaseActivity implements RecyclerViewClickListe
         });
         viewModel.fetchJson(JSON);
     }
-
 
 
     @Override

@@ -22,21 +22,21 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 public class MainViewModel extends AndroidViewModel {
-    public MutableLiveData<String> data = new MutableLiveData<>();
-    public MutableLiveData<List<Questions>> dataw = new MutableLiveData<>();
+    protected MutableLiveData<String> data = new MutableLiveData<>();
+    protected MutableLiveData<List<Questions>> dataw = new MutableLiveData<>();
 
     public MainViewModel(@NonNull Application application) {
         super(application);
     }
 
-    public void fetchJson(String json) {
+    protected void fetchJson(String json) {
 
         Utils.loadJSONFromAsset(getApplication().getApplicationContext(), json, data);
 
 
     }
 
-    public void insertitoDB(List<Question> questions) {
+    protected void insertitoDB(List<Question> questions) {
         Observable.fromIterable(questions).forEach(new Consumer<Question>() {
             @Override
             public void accept(Question question) throws Exception {
@@ -49,7 +49,7 @@ public class MainViewModel extends AndroidViewModel {
 
     }
 
-    public void fetchdata() {
+    protected void fetchdata() {
 
         AppDatabase.getAppDatabase(getApplication()).userDao().getAll().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Consumer<List<Questions>>() {
             @Override
