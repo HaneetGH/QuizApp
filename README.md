@@ -1,39 +1,43 @@
-Quiz Sample App.
-ScreenShot.
-
-
-
+# Quiz Sample App.
+## A simple app used local json for quiz.
+# ScreenShot.
 
 <a href="https://ibb.co/JcrQqkG"><img src="https://i.ibb.co/mRh80z2/device-2019-09-17-000104.png" alt="device-2019-09-17-000104" border="0"></a>
 
 
 
-A simple app used local json for quiz.
 
-Getting Started.
+
+# Getting Started.
 Clone the code and run just that simple.
 
-Prerequisites.
+# Prerequisites.
 Android Studio , java and thats all.
 
-Built With.
+# Built With.
 
-Technology Used:- JAVA , Android SDK.
+# Technology Used.
 
-Database:- ROOM/SQLITE.
+JAVA , Android SDK.
 
-Architecture :- MVVM 
+#  Database.
 
-Other Libs:- GSON , RXJAVA , RXANDROID.
+ROOM/SQLITE.
 
-Versioning.
+# Architecture.
+MVVM 
+
+# Other Libs
+GSON , RXJAVA , RXANDROID.
+
+# Versioning.
 1.0.
 
-Authors.
+# Authors.
 Haneet Singh Chhabra.
 
 
-License.
+# License.
 Open.
 
 
