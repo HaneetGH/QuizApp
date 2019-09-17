@@ -8,18 +8,22 @@ ScreenShot.
 
 
 
-A simple app used local json for quiz/n
+A simple app used local json for quiz.
 
 Getting Started.
-Clone the code and run just that simple/n
+Clone the code and run just that simple.
 
 Prerequisites.
 Android Studio , java and thats all.
 
 Built With.
+
 Technology Used:- JAVA , Android SDK.
+
 Database:- ROOM/SQLITE.
+
 Architecture :- MVVM 
+
 Other Libs:- GSON , RXJAVA , RXANDROID.
 
 Versioning.
