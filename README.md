@@ -2,7 +2,7 @@
 ## A simple app used local json for quiz.
 # ScreenShot.
 
-<a href="https://ibb.co/JcrQqkG"><img src="https://i.ibb.co/mRh80z2/device-2019-09-17-000104.png" alt="device-2019-09-17-000104" border="0"></a>
+<a href="https://ibb.co/JcrQqkG"><img src="https://i.ibb.co/mRh80z2/device-2019-09-17-000104.png" alt="device-2019-09-17-000104" width="182" height="286"  border="0"></a>
 
 
 
