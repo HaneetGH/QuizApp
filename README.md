@@ -16,18 +16,18 @@ Android Studio , java and thats all.
 
 # Built With.
 
-# Technology Used.
+## Technology Used.
 
 JAVA , Android SDK.
 
-#  Database.
+##  Database.
 
 ROOM/SQLITE.
 
-# Architecture.
+## Architecture.
 MVVM 
 
-# Other Libs
+## Other Libs
 GSON , RXJAVA , RXANDROID.
 
 # Versioning.
