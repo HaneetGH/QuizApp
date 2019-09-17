@@ -1,4 +1,6 @@
 # Quiz Sample App.
+
+![GitHub Actions status | HaneetGH/QuizApp](https://github.com/HaneetGH/QuizApp/workflows/Android%20CI/badge.svg)
 ## A simple app used local json for quiz.
 # ScreenShot.
 
